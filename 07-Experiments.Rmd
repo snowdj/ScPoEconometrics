@@ -1,0 +1,25 @@
+# Experiments {#experiments}
+
+Jacques and Marie are two school children aged 12 in the northern Paris schooling district of Creteil. They go to the same secondary school, not the same class however. The district of Creteil is economically deprived, and so there is big interest in how one could improve the outcomes of school children there.
+
+There exists considerable variation in family background, also in Creteil. For example, in the school of Jacques and Marie, only about 20% of parents have white-collar jobs, about 78% of parents are employed and about 80% of households have two parents. These numbers are largely representative of other schools in the district.
+
+Jacques' father, for example, is a white-collar worker who works for the Paris transport consortium RATP. He has got a stable employment contract and a good wage relative to others in the area. He himself went to secondary school in the area, but then did the Baccalaureat in central Paris, before being admitted to a vocational school specialized in vehicule maintainance and engineering. He now oversees maintainance operations for several bus lines in Paris.
+
+The parents of Marie are typical blue collar workers in the area. Her father is a car mechanic who used to work in a local car repair shop, but the shop has closed down since, and he finds it hard to find stable employment. Marie's mother works as a hairdresser in the area.
+
+Parisian Economists Francesco Avvisati, Marc Gurand, Nina Guyon and Eric Maurin wanted to know how one could improve the schooling outcomes for children in the area. They were particularly interested in one particular kind of intervention: Get parents more involved in school. The theory was that getting parents to pay more attention to what happens in school could improve behaviour of the kids in class, the number of days they were absent, as well as potentially improve their test scores. The *soft* behavioural dispostions of truancy (i.e. absenteeism), discipline, work effort and good conduct have been shown in the psychology literature to be more malleable than cognitive skills in young teenagers. Also, [@heckman2006] describe that those soft skills have an important impact on labor market outcomes later in life. 
+Thus, they set out to perform an *intervention* throughout schools in Creteil, that would bring parents to school and talk to the head teacher, watch informative film materials and be given information brochures on three different occasion.
+
+What our team of economists achieved, and what we want to learn about in this chapter, was:
+
+```{block,type="note"}
+How to **measure** whether such an intervention had any effect? More importantly still, how to be sure that any effects they would measure, were actually **caused** by their intervention (and not something else that was going on at the time)?
+
+```
+
+
+
+1. before you were modelling the mean. the average link
+1. now what happens to **outliers**? how robust is the mean to that
+1. what about the entire distribution of this?
