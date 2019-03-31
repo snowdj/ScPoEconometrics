@@ -22,12 +22,9 @@ Imports: bookdown,
   webshot,
   Ecdat,
   EnvStats,
-  rmarkdown,
+  rmarkdown (>= 1.11),
   AER
 Suggests:
   shinytest,
   testthat
-Remotes:
-    rstudio/shinytest,
-    rstudio/learnr
 RoxygenNote: 6.1.0
