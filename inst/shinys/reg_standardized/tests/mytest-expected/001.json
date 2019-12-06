@@ -1,12 +1,12 @@
 {
   "input": {
-    "i_std": 2.4,
-    "s_std": 0.8,
+    "i_std": 2,
+    "s_std": -0.2,
     "std": false
   },
   "output": {
     "regPlot_std": {
-      "src": "[image data sha1: 4f7f4ad28c811d96371cf4eabe3e2f947451ee47]",
+      "src": "[image data sha1: 3ef860d4f4149c7ceebb8834ba1ea8e91c964831]",
       "width": 611,
       "height": 400,
       "coordmap": {
@@ -15,8 +15,8 @@
             "domain": {
               "left": -7.28205164184668,
               "right": 9.26715200755619,
-              "bottom": -0.74398120505692,
-              "top": 7.74187895036794
+              "bottom": -0.64398120505692,
+              "top": 7.84187895036794
             },
             "range": {
               "left": 59.04,
@@ -39,7 +39,7 @@
         }
       }
     },
-    "userguess_std": "Your guess:\n y = 2.4 + 0.8x"
+    "userguess_std": "Your guess:\n y = 2 + -0.2x\n SSR: 88.6611966974004"
   },
   "export": {
 

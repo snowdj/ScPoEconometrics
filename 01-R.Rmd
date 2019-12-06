@@ -15,7 +15,7 @@ The popularity of `R` is on the rise, and everyday it becomes a better tool for 
 
 The following few chapters will serve as a whirlwind introduction to `R`. They are by no means meant to be a complete reference for the `R` language, but simply an introduction to the basics that we will need along the way. Several of the more important topics will be re-stressed as they are actually needed for analyses.
 
-This introductory `R` chapter may feel like an overwhelming amount of information. You are not expected to pick up everything the first time through. You should try all of the code from this chapter, then return to it a number of times as you return to the concepts when performing analyses. We present the bare basics in this chapter, some more details are in chapter \@ref(R-advanced).
+This introductory `R` chapter may feel like an overwhelming amount of information. You are not expected to pick up everything the first time through. You should try all of the code from this chapter, then return to it a number of times as you return to the concepts when performing analyses. We only present the most basic aspects of `R`. If you want to know more, there are countless online tutorials, and you could start with the official [CRAN sample session](https://cran.r-project.org/doc/manuals/r-release/R-intro.html#A-sample-session) or have a look at the resources at [Rstudio](https://www.rstudio.com/online-learning/#DataScience) or on this  [github repo](https://github.com/qinwf/awesome-R).
 
 
 ## Starting R and RStudio
@@ -24,8 +24,8 @@ A key difference for you to understand is the one between `R`, the actual progra
 
 The best way to appreciate the value of `RStudio` is to start using `R` *without* `RStudio`. To do this, double-click on the R GUI that you should have downloaded on your computer following the steps above (on windows or Mac), or start R in your terminal (on Linux or Mac) by just typing `R` in a terminal, see figure \@ref(fig:console). You've just opened the R **console** which allows you to start typing code right after the `>` sign, called *prompt*. Try typing `2 + 2` or `print("Your Name")` and hit the return key. And *voilà*, your first R commands!
 
-```{r console,fig.cap="R GUI symbol and R in a MacOS Terminal",fig.align='center',out.width="50%",echo=FALSE}
-knitr::include_graphics(c("images/RLogo.png","images/console.png"))
+```{r console, fig.cap="R GUI symbol and R in a MacOS Terminal",fig.align='center',out.width="50%",echo=FALSE}
+knitr::include_graphics(c("images/RLogo.png","images/console.png") )
 ```
 
 

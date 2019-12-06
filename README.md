@@ -2,6 +2,8 @@
 
 This is the git repo for the UG Econometrics book taught to 2nd year students at SciencesPo.
 
+**Slides?** If you are looking for the slides, they are in the [ScPoEconometrics-Slides](https://github.com/ScPoEcon/ScPoEconometrics-Slides) repo.
+
 ## Contents
 
 1. [Status](#status)
@@ -16,8 +18,6 @@ This is the git repo for the UG Econometrics book taught to 2nd year students at
 
 **Tests on Windows**: [![Build status](https://ci.appveyor.com/api/projects/status/9ctm2rneexsid3t2?svg=true)](https://ci.appveyor.com/project/FlorianOswald/scpoeconometrics)
 
-
-**Developers Chatroom**: [![Gitter Chat](http://badges.gitter.im/ScPoEcon/ScPoEconometrics.svg)](https://gitter.im/ScPoEconometrics/Lobby)  [Students please only talk to us on Slack!]
 
 
 ## Usage and Installation
@@ -119,8 +119,8 @@ You are free to:
 > citation("ScPoEconometrics")
 
 Oswald F, Robin J, Viers V (2018).
-_Introduction to Econometrics with
-R_. SciencesPo Department of
+Introduction to Econometrics with
+R. SciencesPo Department of
 Economics, Paris, France. <URL:
 https://scpoecon.github.io/ScPoEconometrics/>.
 

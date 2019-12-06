@@ -1,30 +1,49 @@
 Package: ScPoEconometrics
 Type: Package
 Title: ScPoEconometrics
-Date: 2018-11-15
-Version: 0.2.1
+Date: 2019-10-10
+Version: 0.2.6
 Authors@R: c(
     person("Florian", "Oswald", email = "florian.oswald@sciencespo.fr", role = c("aut","cre")),
     person("Jean-Marc", "Robin", email = "jeanmarc.robin@sciencespo.fr", role = "ctb"),
-    person("Vincent", "Viers", email = "vincent.viers@sciencespo.fr", role = "ctb"))
+    person("Vincent", "Viers", email = "vincent.viers@sciencespo.fr", role = "ctb"),
+    person("Pierre", "Villedieu", email = "pierre.villedieu@sciencespo.fr", role = "ctb"))
 Depends: R (>= 3.5.0)
 License: MIT + file LICENSE
 Description: The is the R package for the 2nd year UG course in econometrics at SciencesPo.
 URL: https://github.com/ScPoEcon/ScPoEconometrics
-Imports: bookdown,
-  shiny (>= 1.2.0),
-  learnr,
-  mvtnorm,
-  tidyverse,
-  reshape2,
-  datasauRus,
-  plotly,
-  webshot,
-  Ecdat,
-  EnvStats,
-  rmarkdown (>= 1.11),
-  AER
+Imports: 
+    bookdown,
+    shiny (>= 1.2.0),
+    learnr,
+    mvtnorm,
+    tidyverse,
+    reshape2,
+    datasauRus,
+    plotly,
+    webshot,
+    Ecdat,
+    EnvStats,
+    rmarkdown (>= 1.11),
+    AER,
+    magick,
+    pdftools,
+    Hmisc,
+    magrittr,
+    dplyr,
+    corrplot,
+    cowplot,
+    wooldridge,
+    stargazer,
+    quantreg,
+    infer,
+    equatiomatic,
+    ungeviz,
+    ggdag,
+    data.table,
+    huxtable
+Remotes: datalorax/equatiomatic, wilkelab/ungeviz
 Suggests:
   shinytest,
   testthat
-RoxygenNote: 6.1.0
+RoxygenNote: 6.1.1

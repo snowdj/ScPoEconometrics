@@ -1,4 +1,13 @@
 
+get_lm <- function(a,b,n=20,xscale = 1, escale = 1, seed = 1){
+    set.seed(seed)
+    x = runif(n,min = -1*xscale, max = xscale)
+    y <- a + b * x + rnorm(n,sd = escale)
+    list(x=x,y=y, a = a, b = b, n = n, xscale = xscale, escale = escale)
+}
+
+
+
 #' runTutorial: Run a Tutorial!
 #'
 #' @param tutoname string of which tutorial you want to run
@@ -99,6 +108,16 @@ aboutApp <- function(appname){
 
 gitbook <- function(){
   bookdown::render_book('index.Rmd', 'bookdown::gitbook')
+}
+
+pdfbook <- function(){
+  bookdown::render_book('index.Rmd', 'bookdown::pdf_book')
+}
+
+pasta_maker <- function(){
+  pasta_jar <- tibble::tibble(id = 1:1980,color = sample(c(rep("Red",488),rep("Green",492),rep("White",1000)), size = 1980 ))
+  usethis::use_data(pasta_jar,overwrite = TRUE)
+  pasta_jar
 }
 
 getprompt <- function(){

@@ -1,23 +1,23 @@
 {
   "input": {
-    "scale_x": 0.5,
-    "scale_y": -3.5
+    "scale_x": 1,
+    "scale_y": 1
   },
   "output": {
-    "best_fit": "Original Slope: 3\nOriginal Intercept: 10\nCurrent Slope: -21\nCurrent Intercept: -35",
-    "DGP": "Data Generating Process: Y = 10 + 3X + error\nSample Size N = 100",
+    "best_fit": "Original Slope: 3\nOriginal Intercept: 10\nCurrent Slope: 3\nCurrent Intercept: 10",
+    "DGP": "Data Generating Process: Y = 10 + 3X + error",
     "regPlot_rescale": {
-      "src": "[image data sha1: 1d069b300188fa630f19f995dbe8a25e6901efa0]",
+      "src": "[image data sha1: 58fe26b729baf45fb259a0797a43bcc9db8078a8]",
       "width": 611,
       "height": 400,
       "coordmap": {
         "panels": [
           {
             "domain": {
-              "left": -54,
-              "right": 54,
-              "bottom": -220,
-              "top": 320
+              "left": -5.6,
+              "right": 10.6,
+              "bottom": -12.2,
+              "top": 47.2
             },
             "range": {
               "left": 59.04,

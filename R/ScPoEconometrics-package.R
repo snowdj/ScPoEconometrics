@@ -26,5 +26,18 @@
 #' @import Ecdat
 #' @import EnvStats
 #' @import rmarkdown
+#' @import magick
+#' @import pdftools
+#' @import Hmisc
+#' @import wooldridge
+#' @import dplyr
+#' @import corrplot
+#' @import cowplot
+#' @import stargazer
+#' @import equatiomatic
+#' @import quantreg
+#' @import ungeviz
+#' @importFrom stats rnorm runif
+#' @importFrom magrittr %>%
 #' @keywords internal
 NULL
