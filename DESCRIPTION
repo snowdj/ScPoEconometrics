@@ -1,29 +1,24 @@
 Package: ScPoEconometrics
 Type: Package
 Title: ScPoEconometrics
-Date: 2019-10-10
-Version: 0.2.6
+Date: 2020-10-31
+Version: 0.2.7
 Authors@R: c(
     person("Florian", "Oswald", email = "florian.oswald@sciencespo.fr", role = c("aut","cre")),
     person("Jean-Marc", "Robin", email = "jeanmarc.robin@sciencespo.fr", role = "ctb"),
     person("Vincent", "Viers", email = "vincent.viers@sciencespo.fr", role = "ctb"),
+    person("Gustave", "Kenedi", email = "gustave.kenedi@sciencespo.fr", role = "ctb"),
     person("Pierre", "Villedieu", email = "pierre.villedieu@sciencespo.fr", role = "ctb"))
 Depends: R (>= 3.5.0)
 License: MIT + file LICENSE
-Description: The is the R package for the 2nd year UG course in econometrics at SciencesPo.
+Description: The is the 2nd year UG econometrics book at SciencesPo.
 URL: https://github.com/ScPoEcon/ScPoEconometrics
-Imports: 
-    bookdown,
-    shiny (>= 1.2.0),
-    learnr,
-    mvtnorm,
+Imports: bookdown,
     tidyverse,
-    reshape2,
     datasauRus,
     plotly,
     webshot,
     Ecdat,
-    EnvStats,
     rmarkdown (>= 1.11),
     AER,
     magick,
@@ -36,14 +31,19 @@ Imports:
     wooldridge,
     stargazer,
     quantreg,
-    infer,
     equatiomatic,
     ungeviz,
+    masteringmetrics,
     ggdag,
     data.table,
-    huxtable
-Remotes: datalorax/equatiomatic, wilkelab/ungeviz
-Suggests:
-  shinytest,
-  testthat
-RoxygenNote: 6.1.1
+    huxtable,
+    cholera, 
+    reshape2,
+    modelsummary,
+    estimatr,
+    gganimate,
+    fixest,
+    transformr,
+    mfx
+Remotes: datalorax/equatiomatic, wilkelab/ungeviz, jrnold/masteringmetrics/masteringmetrics
+RoxygenNote: 7.1.1
